@@ -1,0 +1,51 @@
+div#tabs-container.top {
+    padding: 0px 0px 1px 0px !important;
+}
+button[title="Synced Tabs"] {
+    color: var(--colorHighlightBg) !important;
+}
+button[title="Workspaces"] {
+    color: var(--colorHighlightBg) !important;
+}
+div.tab {
+    background-color: var(--colorAccentBgFadedMore) !important;
+    border-radius: 5px !important;
+}
+/*tab stack*/
+div.stack-counter {
+    color: #ffffff !important;
+    background-color: var(--colorAccentBg) !important;
+    border-radius: 5px !important;
+}
+
+span.favicon.jstest-favicon-image {
+    filter: none !important;
+}
+
+/*Active tab*/
+
+.tab.active{
+    background-color: var(--colorHighlightBgDark) !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+}
+
+/*Pinned tab*/
+
+.tab.pinned{
+    background-color: var(--colorAccentBgFadedMore) !important;
+}
+
+.tab.pinned.active{
+    background-color: var(--colorHighlightBgDark) !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+    }
+
+/*Hibernated tabs*/
+
+.tab.isdiscarded{
+    background-color: var(--colorBgDark) !important;
+    color: #9e9e9e !important;
+    border-radius: 5px !important;
+}

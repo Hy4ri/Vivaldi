@@ -1,0 +1,18 @@
+button[name="Divider"]{
+    color: var(--colorHighlightBg) !important;
+}
+button[title="Add Web Panel"]{
+    color: var(--colorHighlightBg) !important;
+}
+button[name="COMMAND_ckqjdk4o7000001l58zh17egm"]{
+    color: var(--colorHighlightBg) !important;
+}
+button[title="Menu (F10)"]{
+    display: none;
+}
+button[name="Settings"]{
+    color: var(--colorHighlightBg) !important;
+}
+button[name="PanelHistory"]{
+    color: var(--colorHighlightBg) !important;
+}

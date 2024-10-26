@@ -1,0 +1,13 @@
+/* resize bookmark tab */
+.bookmark-bar {
+    height: 27px !important;
+}
+
+/* ICON COLORS */
+svg.folder-icon svg path {
+    fill: var(--colorHighlightBg) !important;
+    fill-opacity: 1 !important;
+    /*stroke: rgb(0, 0, 0) !important; /* OUTLINE */
+    stroke-width: 1 !important;
+    stroke-opacity: 1 !important;
+}
