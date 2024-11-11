@@ -45,7 +45,7 @@ span.favicon.jstest-favicon-image {
 /*Hibernated tabs*/
 
 .tab.isdiscarded{
-    background-color: var(--colorBgDark) !important;
+    background-color: #131313 !important;
     color: #9e9e9e !important;
     border-radius: 5px !important;
 }
