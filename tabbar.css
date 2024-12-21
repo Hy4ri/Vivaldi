@@ -1,5 +1,5 @@
 div#tabs-container.top {
-    padding: 0px 0px 1px 0px !important;
+    padding: 1px 0px 1px 0px !important;
 }
 button[title="Synced Tabs"] {
     color: var(--colorHighlightBg) !important;
@@ -9,13 +9,11 @@ button[title="Workspaces"] {
 }
 div.tab {
     background-color: var(--colorAccentBgFadedMore) !important;
-    border-radius: 5px !important;
 }
 /*tab stack*/
 div.stack-counter {
     color: #ffffff !important;
     background-color: var(--colorAccentBg) !important;
-    border-radius: 5px !important;
 }
 
 span.favicon.jstest-favicon-image {
@@ -27,7 +25,6 @@ span.favicon.jstest-favicon-image {
 .tab.active{
     background-color: var(--colorHighlightBgDark) !important;
     color: #ffffff !important;
-    border-radius: 5px !important;
 }
 
 /*Pinned tab*/
@@ -39,7 +36,6 @@ span.favicon.jstest-favicon-image {
 .tab.pinned.active{
     background-color: var(--colorHighlightBgDark) !important;
     color: #ffffff !important;
-    border-radius: 5px !important;
     }
 
 /*Hibernated tabs*/
@@ -47,5 +43,10 @@ span.favicon.jstest-favicon-image {
 .tab.isdiscarded{
     background-color: #131313 !important;
     color: #9e9e9e !important;
-    border-radius: 5px !important;
+}
+
+/*tooltip*/
+
+.thumbnail-image{
+    display: none !important;
 }
