@@ -1,6 +1,8 @@
 /* resize bookmark tab */
 .bookmark-bar {
     height: 22px !important;
+    background-color: var(--colorBg) !important;
+    border: none !important;
 }
 
 /* ICON COLORS */

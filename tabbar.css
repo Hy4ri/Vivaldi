@@ -1,5 +1,6 @@
 div#tabs-container.top {
     padding: 1px 0px 1px 0px !important;
+    background-color: var(--colorBg) !important;
 }
 button[title="Synced Tabs"] {
     color: var(--colorHighlightBg) !important;
@@ -10,6 +11,7 @@ button[title="Workspaces"] {
 div.tab {
     background-color: var(--colorAccentBgFadedMore) !important;
 }
+
 /*tab stack*/
 
 div.stack-counter {
@@ -18,8 +20,15 @@ div.stack-counter {
     background-color: var(--colorAccentBg) !important;*/
 }
 
+/* tabbar in tab stack*/
+
+div.tab-strip{
+    background-color: var(--colorBg) !important;
+}
+
+
 div.is-substack{
-    --colorBgAlpha: var(--colorHighlightBgDark);
+    --colorBgAlpha: var(--colorHighlightBgDark) !important;
 }
 
 /*favicon*/

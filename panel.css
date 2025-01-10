@@ -1,3 +1,7 @@
+div#panels-container {
+    background-color: var(--colorBg) !important;
+}
+
 button[name="Divider"]{
     color: var(--colorHighlightBg) !important;
 }
