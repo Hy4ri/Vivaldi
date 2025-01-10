@@ -11,10 +11,18 @@ div.tab {
     background-color: var(--colorAccentBgFadedMore) !important;
 }
 /*tab stack*/
+
 div.stack-counter {
-    color: #ffffff !important;
-    background-color: var(--colorAccentBg) !important;
+    display: none !important;
+    /*color: #ffffff !important;
+    background-color: var(--colorAccentBg) !important;*/
 }
+
+div.is-substack{
+    --colorBgAlpha: var(--colorHighlightBgDark);
+}
+
+/*favicon*/
 
 span.favicon.jstest-favicon-image {
     filter: none !important;
