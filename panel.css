@@ -26,3 +26,9 @@ button[name="PanelHistory"]{
 div.panel-group{
     border: 1px solid var(--colorHighlightBg) !important;
 }
+
+/*panel window header*/
+
+header.webpanel-header{
+    display: none !important;
+}

@@ -19,3 +19,10 @@ button[class="ToolbarButton-Button"] {
     padding-bottom: 2px !important;
     height: 31px !important;
 }
+
+/*webview
+
+div#webview-container{
+    border: 1px solid var(--colorHighlightBg) !important;
+}
+*/

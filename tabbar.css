@@ -8,7 +8,7 @@ button[title="Synced Tabs"] {
 button[title="Workspaces"] {
     color: var(--colorHighlightBg) !important;
     background-color: var(--colorAccentBgFadedMore) !important;
-    margin: 2px 0px 1px 0px !important;
+    margin: 1px 0px 0px 0px !important;
 }
 div.tab {
     background-color: var(--colorAccentBgFadedMore) !important;
