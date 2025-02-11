@@ -26,3 +26,10 @@ div#webview-container{
     border: 1px solid var(--colorHighlightBg) !important;
 }
 */
+
+/* header */
+
+#browser.tabs-top #header {
+    margin-bottom: -10px !important;
+    justify-content: flex-start;
+}
