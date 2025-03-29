@@ -27,9 +27,8 @@ div#webview-container{
 }
 */
 
-/* header */
+/* empty space on top */
 
-#browser.tabs-top #header {
-    margin-bottom: -10px !important;
-    justify-content: flex-start;
+.tabs-top#browser:not(.win, .fullscreen, .disable-titlebar) #header {
+     min-height: 0 /*calc((36px + var(--densityGap)* 2) / var(--uiZoomLevel))*/;
 }
