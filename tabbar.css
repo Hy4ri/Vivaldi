@@ -12,6 +12,17 @@ button[title="Workspaces"] {
 }
 div.tab {
     background-color: var(--colorAccentBgFadedMore) !important;
+    height: 27px;
+    padding-top: -3px;
+}
+/*tab title*/
+.linux .tab .title {
+    line-height: 24px !important;
+}
+
+/*tab icon*/
+.tab .favicon {
+    height: unset !important;
 }
 
 /*tab stack*/
@@ -69,3 +80,4 @@ span.favicon.jstest-favicon-image {
 .thumbnail-image{
     display: none !important;
 }
+
