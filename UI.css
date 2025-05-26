@@ -1,3 +1,9 @@
+/*Header*/
+
+div#header {
+  display: none !important;
+}
+
 /* Font */
 
 * {
@@ -8,27 +14,12 @@
 /* Button */
 
 button[class="ToolbarButton-Button"] {
-    background-color: var(--colorBg) !important;
-    opacity: 1.0 !important;
+  background-color: var(--colorBg) !important;
+  opacity: 1.0 !important;
 }
 
-/*a gap*/
+/*webview*/
 
-.tabs-top.density-on #tabs-tabbar-container:not(:has(#tabs-subcontainer)) {
-    padding-top: 0px !important;
-    padding-bottom: 2px !important;
-    height: 27px !important;
-}
-
-/*webview
-
-div#webview-container{
-    border: 1px solid var(--colorHighlightBg) !important;
-}
-*/
-
-/* empty space on top */
-
-.tabs-top#browser:not(.win, .fullscreen, .disable-titlebar) #header {
-     min-height: 0 /*calc((36px + var(--densityGap)* 2) / var(--uiZoomLevel))*/;
-}
+/* div#webview-container { */
+/*   border-bottom: 1px solid var(--colorHighlightBg) !important; */
+/* } */
