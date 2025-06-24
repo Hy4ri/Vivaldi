@@ -1,0 +1,48 @@
+/* Find-in-page mod */
+.find-in-page-wrapper {
+  display: contents;
+}
+
+/* Find-in-page floating top */
+.find-in-page {
+  position: absolute;
+  background-color: var(--colorBg);
+  border-radius: var(--radius);
+  max-width: fit-content;
+  margin: 0 auto;
+  z-index: 1;
+  top: 5px;
+  left: 0;
+  right: 0;
+}
+
+/* Find-in-page input wider */
+.find-in-page .fip-input-container {
+  width: 400px;
+  max-width: unset;
+}
+
+/* Find-in-page transparent if not focused */
+.find-in-page:not(:focus-within):not(:hover) {
+  opacity: 0.8;
+}
+
+/* Find-in-page background colour for no matches */
+.find-in-page.fip-nomatches {
+  background: darkred;
+}
+
+/* Find-in-page result numbers clearer */
+.find-in-page .fip-results {
+  opacity: 1 !important;
+}
+
+/* Find-in-page hit no animation */
+.fip-active-hit {
+  display: none;
+}
+
+/* Find-in-page hit no page dimming */
+#browser:has(.find-in-page) webview {
+  filter: none !important;
+}

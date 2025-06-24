@@ -1,0 +1,28 @@
+/* Tabcycler hide image */
+.tabswitcher.list img.visual-list-preview {
+  visibility: collapse;
+  height: 0;
+  min-height: 0;
+}
+
+.visual-list {
+  font-size: 20px !important;
+}
+
+/* Tabcycler list */
+.tabswitcher.list {
+  font-size: 20px !important;
+  grid-template-columns: 0px 1fr;
+  grid-gap: unset;
+  width: 50em;
+  max-height: 80vh;
+}
+
+/* Tabcycler hide scrollbar */
+.tabswitcher.list .listed-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tabswitcher.list .visual-tab-list-favicon {
+  display: none;
+}

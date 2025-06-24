@@ -1,16 +1,16 @@
-div.mainbar{
-    border: none !important;
+div.mainbar {
+  border: none !important;
 }
 
 /* =====================================
    Addressfield
   ===================================== */
 .UrlField {
-    justify-content: center;
+  justify-content: center;
 }
 
 .UrlField .UrlBar-UrlField {
-    text-align: center;
+  text-align: center;
 }
 
 /* Default style mod */
@@ -24,111 +24,68 @@ div.mainbar{
   margin: auto !important;
   background-color: var(--colorAccentFgAlphaHeavy);
 }
-/* End style */
-
-/* Old Edge style
-.UrlBar-AddressField {
-  border: 0 !important;
-  outline: 0 !important;
-  outline-offset: 0 !important;
-  padding: 3px 5px !important;
-  height: 22px !important;
-  background-color: transparent !important;
-  border-radius: 0 !important;
-  border-left: 1px solid var(--colorFgAlpha) !important;
-  border-right: 1px solid var(--colorFgAlpha) !important;
-}
-/* End style */
-
-/* Chromium style
-.UrlBar-AddressField,
-.SearchField {
-    border: 0 !important;
-    outline: 0 !important;
-    outline-offset: 0 !important;
-    padding: 5px !important;
-    height: 24px !important;
-    margin: auto !important;
-    background-color: var(--colorAccentFgAlphaHeavy);
-    border-radius: 25px !important;
-}
-/* End style */
 
 /* URL */
 .UrlFragment-Wrapper,
 .UrlFragment--Lowlight:first-of-type {
-    color: var(--colorFgFaded);
+  color: var(--colorFgFaded);
 }
 
 /* URL Sub-domain  */
 .UrlFragment-HostFragment-Subdomain,
 .UrlFragment-HostFragment-TLD {
-    color: var(--colorFgIntense) !important;
-    font-weight: 600;
+  color: var(--colorFgIntense) !important;
+  font-weight: 600;
 }
 
 /* URL Base-domain */
 .UrlFragment-HostFragment-Basedomain {
-    color: var(--colorHighlightBg) !important;
-    font-weight: 600;
+  color: var(--colorHighlightBg) !important;
+  font-weight: 600;
 }
 
-.toolbar-insideinput.toolbar-insideinput.toolbar-insideinput
-    > .button-toolbar
-    button:hover
-    :not(:active):not(:focus):not(.button-pressed),
-.toolbar-insideinput.toolbar-insideinput.toolbar-insideinput
-    > .toolbar-group
-    > .button-toolbar
-    button:hover
-    :not(:active):not(:focus):not(.button-pressed),
+.toolbar-insideinput.toolbar-insideinput.toolbar-insideinput>.button-toolbar button:hover :not(:active):not(:focus):not(.button-pressed),
+.toolbar-insideinput.toolbar-insideinput.toolbar-insideinput>.toolbar-group>.button-toolbar button:hover :not(:active):not(:focus):not(.button-pressed),
 .toolbar .button-toolbar.reload:hover {
-    background-color: transparent !important;
-    fill: var(--colorHighlightBg) !important;
+  background-color: transparent !important;
+  fill: var(--colorHighlightBg) !important;
 }
 
 .button-addressfield.bookmark.bookmarked svg .bookmark-outline {
-    fill: var(--colorHighlightBgDark);
+  fill: var(--colorHighlightBgDark);
 }
 
 .button-addressfield.bookmark svg .bookmark-animated-fill {
-    fill: var(--colorHighlightBgAlpha);
+  fill: var(--colorHighlightBgAlpha);
 }
 
 /* Content Blocking badge */
-.toolbar.toolbar-addressbar.toolbar-mainbar.toolbar-large
-    > div.addressfield
-    .ads,
-.toolbar.toolbar-addressbar.toolbar-mainbar.toolbar-large
-    > div.addressfield
-    .blocking,
-.toolbar.toolbar-addressbar.toolbar-mainbar.toolbar-large
-    > div.addressfield
-    .trackers {
-    fill: var(--colorHighlightBg) !important;
+.toolbar.toolbar-addressbar.toolbar-mainbar.toolbar-large>div.addressfield .ads,
+.toolbar.toolbar-addressbar.toolbar-mainbar.toolbar-large>div.addressfield .blocking,
+.toolbar.toolbar-addressbar.toolbar-mainbar.toolbar-large>div.addressfield .trackers {
+  fill: var(--colorHighlightBg) !important;
 }
 
 /* Internal site icon */
 .SiteInfoButton.internal svg path,
 .SiteInfoButton.warning svg path {
-    d: path(
-        "M10.4 5c-.4-.8 0-1.8 1-2 .7 0 1.5.4 1.6 1.2a1.4 1.4 0 0 1-.2 1l-4 7c-.3.5-.7.8-1.2.8-.6 0-1-.2-1.3-.7L3.8 7.8 2.2 5c-.5-.8 0-2 1-2 .7 0 1 .2 1.4.7l1 2 1 1.4a2 2 0 0 0 1.7 1.5 2.2 2.2 0 0 0 2.3-2V6c0-.3 0-.6-.2-1z"
+  d: path("M10.4 5c-.4-.8 0-1.8 1-2 .7 0 1.5.4 1.6 1.2a1.4 1.4 0 0 1-.2 1l-4 7c-.3.5-.7.8-1.2.8-.6 0-1-.2-1.3-.7L3.8 7.8 2.2 5c-.5-.8 0-2 1-2 .7 0 1 .2 1.4.7l1 2 1 1.4a2 2 0 0 0 1.7 1.5 2.2 2.2 0 0 0 2.3-2V6c0-.3 0-.6-.2-1z"
     );
 }
 
 /*bookmark*/
 
 button:not(.button-on) path.bookmark-outline {
-    fill: var(--colorFg);
+  fill: var(--colorFg);
 }
 
 button.button-on path.bookmark-outline {
-    fill: var(--colorHighlightBg) !important;
+  fill: var(--colorHighlightBg) !important;
 }
 
 .add-bookmark-shadow,
 .bookmark-animated-fill {
-    display: none;
+  display: none;
 }
 
 /* =====================================
@@ -137,64 +94,65 @@ button.button-on path.bookmark-outline {
 
 .BookmarkLocationSelector-ToggleButtonGroup-Button:focus,
 .BookmarkLocationSelector-ToggleButtonGroup-Button--Pressed {
-    background-color: var(--colorHighlightBgAlpha);
+  background-color: var(--colorHighlightBgAlpha);
 }
 
 .BookmarkLocationSelector-Header,
 .BookmarkLocationSelector-ToggleButtonGroup-Button--Pressed {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .BookmarkLocationSelector-ToggleButtonGroup-Button--Pressed * {
-    fill: var(--colorHighlightBg) !important;
+  fill: var(--colorHighlightBg) !important;
 }
 
 .BookmarkLocationSelector-ToggleButtonGroup-Button:hover,
 .BookmarkLocationSelector-SearchInput-Button:hover {
-    background-color: var(--colorHighlightBg) !important;
+  background-color: var(--colorHighlightBg) !important;
 }
 
 .BookmarkLocationSelector-ToggleButtonGroup-Button:hover *,
 .BookmarkLocationSelector-SearchInput-Button:hover * {
-    fill: var(--colorAccentFg) !important;
+  fill: var(--colorAccentFg) !important;
 }
 
 .BookmarkInputField-Title {
-    color: var(--colorHighlightBg);
-    font-weight: 700;
+  color: var(--colorHighlightBg);
+  font-weight: 700;
 }
 
 
 /* ====================================
    clock
    ====================================*/
-  button[name="Clock"]{
-    color: var(--colorHighlightBg) !important;
+button[name="Clock"] {
+  color: var(--colorHighlightBg) !important;
 }
 
 /* =================================================
    Extensions icon ++ the extendable bar background
    ================================================= */
 button[name="Extensions"] {
-    color: var(--colorHighlightBg) !important;
+  color: var(--colorHighlightBg) !important;
 }
 
 /* =====================================
    home
   ===================================== */
 button[name="Home"] {
-    color: var(--colorHighlightBg) !important;
+  color: var(--colorHighlightBg) !important;
 }
+
 /* =====================================
    Previous Page
   ===================================== */
 button[name="Back"] {
-    color: var(--colorHighlightBg) !important;
+  color: var(--colorHighlightBg) !important;
 }
+
 /* =====================================
    Private Browsing Window
   ===================================== */
 div[title="Private Browsing Window"] {
-    display: none !important;
-    color: var(--colorHighlightBg) !important;
+  color: var(--colorHighlightBg) !important;
 }

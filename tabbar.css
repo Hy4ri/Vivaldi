@@ -41,10 +41,11 @@ div.tab-indicator.active {
 
 div.is-substack {
   --colorBgAlpha: var(--colorHighlightBgDark) !important;
+  --colorAccentBg: var(--colorHighlightBgDark) !important;
 }
 
 div.stack-counter {
-  /* display: none !important; */
+  display: none !important;
   color: var(--colorHighlightFg) !important;
   background-color: var(--colorAccentBg) !important;
 }

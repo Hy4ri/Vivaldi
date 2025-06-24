@@ -1,0 +1,45 @@
+/* Placement */
+.qc-modal {
+  top: 15vh !important;
+}
+
+/* Width + Height */
+.quick-command-container {
+  width: 50vw !important;
+}
+
+.quick-commands .VivaldiList {
+  height: 60vh !important;
+}
+
+div.ReactVirtualized__Grid.ReactVirtualized__List {
+  width: 100% !important;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+  max-width: 100% !important;
+}
+
+/* Transparency */
+.qc-entry,
+.quick-commands {
+  background-color: var(--colorBgAlphaHeavy) !important;
+}
+
+/* Selected line */
+.quick-command[data-selected] {
+  background-color: var(--colorHighlightBg) !important;
+}
+
+/* Styling  */
+.qc-modal .modal-wrapper {
+  color: var(--colorFgIntense) !important;
+  background-color: var(--colorBgAlphaBlur) !important;
+  backdrop-filter: blur(3px);
+  border: 2px solid var(--colorAccentBgAlphaHeavy);
+}
+
+/* Quick command URL */
+.quick-command-url {
+  opacity: 1 !important;
+}
