@@ -1,59 +1,10 @@
-div#tabs-container.top {
-  padding: 1px 0px 1px 0px !important;
-  background-color: var(--colorBg) !important;
-}
-
 button[title="Workspaces"] {
   color: var(--colorHighlightBg) !important;
   background-color: var(--colorBg) !important;
-  margin: 1px 0px 0px 0px !important;
 }
 
 div.tab {
   background-color: var(--colorAccentBgFadedMore) !important;
-}
-
-div.tab-position {
-  --Height: 27px !important;
-}
-
-/*tab title*/
-.linux .tab .title {
-  line-height: 24px !important;
-}
-
-/*tab icon*/
-.tab .favicon {
-  height: unset !important;
-}
-
-/* compact tab stack */
-
-div.tab-indicator {
-  background-color: var(--colorHighlightBgFaded) !important;
-}
-
-div.tab-indicator.active {
-  background-color: var(--colorHighlightBgDark) !important;
-}
-
-/*tab stack*/
-
-div.is-substack {
-  --colorBgAlpha: var(--colorHighlightBgDark) !important;
-  --colorAccentBg: var(--colorHighlightBgDark) !important;
-}
-
-div.stack-counter {
-  display: none !important;
-  color: var(--colorHighlightFg) !important;
-  background-color: var(--colorAccentBg) !important;
-}
-
-/* tabbar in tab stack*/
-
-div.tab-strip {
-  background-color: var(--colorBg) !important;
 }
 
 /*favicon*/
@@ -93,31 +44,40 @@ span.favicon.jstest-favicon-image {
   display: none !important;
 }
 
-/* tab bar bottom clean*/
-
-div#tabs-tabbar-container.bottom {
-  padding: 0px 0px 0px 0px !important;
-}
-
 /*WorkSpace button*/
 
 span.button-icon {
   font-size: 30px !important;
 }
 
-/* 1px up on active tab remove*/
+/* compact tab stack */
 
-.tabs-bottom.tabs-top:not(.density-on) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) #tabs-container .tab.active,
-.tabs-bottom.tabs-bottom:not(.density-on) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) #tabs-container .tab.active,
-.tabs-bottom.tabs-top:not(.density-on) #tabs-subcontainer .tab.active,
-.tabs-bottom.tabs-bottom:not(.density-on) #tabs-subcontainer .tab.active {
-  padding-top: 0px !important;
-  top: 0px !important;
+div.tab-indicator {
+  background-color: var(--colorHighlightBgFaded) !important;
 }
 
-.tabs-top:not(.density-on) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) #tabs-container .tab.active,
-.tabs-bottom:not(.density-on) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) #tabs-container .tab.active,
-.tabs-top:not(.density-on) #tabs-subcontainer .tab.active,
-.tabs-bottom:not(.density-on) #tabs-subcontainer .tab.active {
-  height: calc(var(--Height) + 0px) !important;
+div.tab-indicator.active {
+  background-color: var(--colorHighlightBgDark) !important;
+}
+
+/*tab stack*/
+
+div.is-substack {
+  --colorBgAlpha: var(--colorHighlightBgDark) !important;
+  --colorAccentBg: var(--colorHighlightBgDark) !important;
+}
+
+div.stack-counter {
+  display: none !important;
+}
+
+/* tabbar in tab stack*/
+
+div.tab-strip {
+  background-color: var(--colorBg) !important;
+}
+
+/* New tab button in tab stack */
+button[title="New Stacked Tab (Ctrl+T)"] {
+  display: none !important;
 }

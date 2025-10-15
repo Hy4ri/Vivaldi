@@ -1,15 +1,15 @@
-/* Tabcycler hide image */
+/* Hide Images */
 .tabswitcher.list img.visual-list-preview {
   visibility: collapse;
   height: 0;
   min-height: 0;
 }
 
+/* List */
 .visual-list {
   font-size: 20px !important;
 }
 
-/* Tabcycler list */
 .tabswitcher.list {
   font-size: 20px !important;
   grid-template-columns: 0px 1fr;
@@ -18,11 +18,12 @@
   max-height: 80vh;
 }
 
-/* Tabcycler hide scrollbar */
+/* Hide Scrollbar */
 .tabswitcher.list .listed-tabs::-webkit-scrollbar {
   display: none;
 }
 
+/* Hide Page icon */
 .tabswitcher.list .visual-tab-list-favicon {
   display: none;
 }

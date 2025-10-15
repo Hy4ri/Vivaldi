@@ -1,0 +1,12 @@
+/*Header*/
+
+div#header {
+  display: none !important;
+}
+
+/* Font */
+
+* {
+  font-family: JetBrainsMono Nerd Font, system-ui, sans-serif !important;
+  font-size: 14px !important;
+}

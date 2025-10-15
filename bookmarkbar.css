@@ -1,12 +1,12 @@
-/* resize bookmark tab */
+/* Resize Bookmark Bar */
 .bookmark-bar {
-    height: 22px !important;
-    background-color: var(--colorBg) !important;
-    border: none !important;
+  height: 22px !important;
+  background-color: var(--colorBg) !important;
+  border: none !important;
 }
 
-/* ICON COLORS */
+/* Icon Colors */
 svg.folder-icon svg path {
-    fill: var(--colorHighlightBg) !important;
-    fill-opacity: 1 !important;
+  fill: var(--colorHighlightBg) !important;
+  fill-opacity: 1 !important;
 }
