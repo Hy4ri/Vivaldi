@@ -47,7 +47,7 @@ span.favicon.jstest-favicon-image {
 /*WorkSpace button*/
 
 span.button-icon {
-  font-size: 30px !important;
+  font-size: 20px !important;
 }
 
 /* compact tab stack */
@@ -80,4 +80,10 @@ div.tab-strip {
 /* New tab button in tab stack */
 button[title="New Stacked Tab (Ctrl+T)"] {
   display: none !important;
+}
+
+ /* Close tooltip Remove */
+
+button.close {
+   pointer-events: none !important;
 }
