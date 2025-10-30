@@ -1,7 +1,21 @@
+/* auto expand on hover Vertical mode */
+
+#tabs-tabbar-container {
+  width: 30px !important;
+}
+
+#tabs-tabbar-container:hover {
+  width: 300px !important;
+}
+
+/* workspace button */
+
 button[title="Workspaces"] {
   color: var(--colorHighlightBg) !important;
   background-color: var(--colorBg) !important;
 }
+
+/* tab background */
 
 div.tab {
   background-color: var(--colorAccentBgFadedMore) !important;
@@ -82,8 +96,11 @@ button[title="New Stacked Tab (Ctrl+T)"] {
   display: none !important;
 }
 
- /* Close tooltip Remove */
+/* Close tooltip Remove */
 
 button.close {
-   pointer-events: none !important;
+  position: relative !important;
+  /* ensure layout remains normal */
+  pointer-events: none !important;
+  /* disable native events on the button itself */
 }
