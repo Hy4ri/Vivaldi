@@ -1,11 +1,7 @@
-/* auto expand on hover Vertical mode */
-
-#tabs-tabbar-container {
-  width: 30px !important;
-}
+/* auto expand on hover */
 
 #tabs-tabbar-container:hover {
-  width: 300px !important;
+  width: 200px !important;
 }
 
 /* workspace button */
@@ -82,7 +78,13 @@ div.is-substack {
 }
 
 div.stack-counter {
-  display: none !important;
+  /* display: none !important; */
+}
+
+/* Colored Tab stack */
+#browser .tab-position.colored.accordion-toggle-arrow,
+#browser .tab-position.colored .tab:not(.active) {
+  color: var(--colorHighlightFg) !important;
 }
 
 /* tabbar in tab stack*/
