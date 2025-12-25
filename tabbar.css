@@ -1,12 +1,17 @@
 /* auto expand on hover */
 
-#tabs-tabbar-container:hover {
-  width: 200px !important;
-}
+/* #tabs-tabbar-container:hover { */
+/*   width: 200px !important; */
+/* } */
 
 /* workspace button */
 
 button[title="Workspaces"] {
+  color: var(--colorHighlightBg) !important;
+  background-color: var(--colorBg) !important;
+}
+
+button[name="WorkspaceButton"] {
   color: var(--colorHighlightBg) !important;
   background-color: var(--colorBg) !important;
 }
@@ -57,7 +62,7 @@ span.favicon.jstest-favicon-image {
 /*WorkSpace button*/
 
 span.button-icon {
-  font-size: 20px !important;
+  font-size: 25px !important;
 }
 
 /* compact tab stack */
@@ -74,7 +79,7 @@ div.tab-indicator.active {
 
 div.is-substack {
   --colorBgAlpha: var(--colorHighlightBgDark) !important;
-  --colorAccentBg: var(--colorHighlightBgDark) !important;
+  --colorAccentBg: transparent !important;
 }
 
 div.stack-counter {
@@ -88,9 +93,18 @@ div.stack-counter {
 }
 
 /* tabbar in tab stack*/
-
-div.tab-strip {
+div#tabs-subcontainer {
   background-color: var(--colorBg) !important;
+}
+
+/* new tab in the sub bar */
+div.button-toolbar.newtab {
+  display: none !important;
+}
+
+/* lock button */
+div.button-toolbar.tabs-unlocked {
+  display: none !important;
 }
 
 /* New tab button in tab stack */
