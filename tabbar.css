@@ -16,10 +16,14 @@ button[name="WorkspaceButton"] {
   background-color: var(--colorBg) !important;
 }
 
-/* tab background */
+/* Horizonatal scrolling buttons */
 
-div.tab {
-  background-color: var(--colorAccentBgFadedMore) !important;
+button[aria-label="Scroll left"] {
+  display: none !important;
+}
+
+button[aria-label="Scroll right"] {
+  display: none !important;
 }
 
 /*favicon*/
@@ -28,11 +32,19 @@ span.favicon.jstest-favicon-image {
   filter: none !important;
 }
 
+/* tab background */
+
+div.tab {
+  background-color: var(--colorAccentBgFadedMore) !important;
+  font-weight: bold !important;
+  border-radius: var(--radius) !important;
+}
+
 /*Active tab*/
 
 .tab.active {
   background-color: var(--colorHighlightBgDark) !important;
-  color: var(--colorHighlightFg) !important;
+  font-weight: bold !important;
 }
 
 /*Pinned tab*/
@@ -44,6 +56,7 @@ span.favicon.jstest-favicon-image {
 .tab.pinned.active {
   background-color: var(--colorHighlightBgDark) !important;
   color: var(--colorHighlightFg) !important;
+  margin-top: 1px !important;
 }
 
 /*Hibernated tabs*/
@@ -82,9 +95,9 @@ div.is-substack {
   --colorAccentBg: transparent !important;
 }
 
-div.stack-counter {
-  /* display: none !important; */
-}
+/* div.stack-counter { */
+/*    display: none !important;  */
+/* } */
 
 /* Colored Tab stack */
 #browser .tab-position.colored.accordion-toggle-arrow,
@@ -114,9 +127,7 @@ button[title="New Stacked Tab (Ctrl+T)"] {
 
 /* Close tooltip Remove */
 
-button.close {
-  position: relative !important;
-  /* ensure layout remains normal */
-  pointer-events: none !important;
-  /* disable native events on the button itself */
-}
+/* button.close { */
+/*   position: relative !important; */
+/*   pointer-events: none !important; */
+/* } */
