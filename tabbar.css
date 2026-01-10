@@ -4,6 +4,12 @@
 /*   width: 200px !important; */
 /* } */
 
+/* audio */
+
+.tab.active .tab-audio {
+  margin-top: -6px !important;
+}
+
 /* workspace button */
 
 button[title="Workspaces"] {
