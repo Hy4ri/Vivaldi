@@ -31,7 +31,7 @@ button[aria-label="Scroll right"] {
 span.favicon.jstest-favicon-image {
   filter: none !important;
 }
-.tab.active span.favicon.jstest-favicon-image {
+.tab.pinned.active span.favicon.jstest-favicon-image {
   margin-top: -2px !important;
 }
 
