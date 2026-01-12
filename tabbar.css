@@ -1,11 +1,21 @@
-/* auto expand on hover */
+/* ==========================================================================
+   Tab Bar
+   ========================================================================== */
 
+/* --------------------------------------------------------------------------
+   Interaction & Auto-expand
+   -------------------------------------------------------------------------- */
+
+/* auto expand on hover */
 /* #tabs-tabbar-container:hover { */
 /*   width: 200px !important; */
 /* } */
 
-/* workspace button */
+/* --------------------------------------------------------------------------
+   Workspaces
+   -------------------------------------------------------------------------- */
 
+/* workspace button */
 button[title="Workspaces"] {
   color: var(--colorHighlightBg) !important;
   background-color: var(--colorBg) !important;
@@ -16,8 +26,16 @@ button[name="WorkspaceButton"] {
   background-color: var(--colorBg) !important;
 }
 
-/* Horizonatal scrolling buttons */
+/* WorkSpace button icon size */
+span.button-icon {
+  font-size: 25px !important;
+}
 
+/* --------------------------------------------------------------------------
+   Scrolling Controls
+   -------------------------------------------------------------------------- */
+
+/* Horizonatal scrolling buttons */
 button[aria-label="Scroll left"] {
   display: none !important;
 }
@@ -26,32 +44,36 @@ button[aria-label="Scroll right"] {
   display: none !important;
 }
 
-/*favicon*/
+/* --------------------------------------------------------------------------
+   Tab Favicons
+   -------------------------------------------------------------------------- */
 
 span.favicon.jstest-favicon-image {
   filter: none !important;
 }
+
 .tab.pinned.active span.favicon.jstest-favicon-image {
   margin-top: -2px !important;
 }
 
-/* tab background */
+/* --------------------------------------------------------------------------
+   Tab Styling
+   -------------------------------------------------------------------------- */
 
+/* Tab background */
 div.tab {
   background-color: var(--colorAccentBgFadedMore) !important;
   font-weight: bold !important;
   border-radius: var(--radius) !important;
 }
 
-/*Active tab*/
-
+/* Active tab */
 .tab.active {
   background-color: var(--colorHighlightBgDark) !important;
   font-weight: bold !important;
 }
 
-/*Pinned tab*/
-
+/* Pinned tab */
 .tab.pinned {
   background-color: var(--colorAccentBgFadedMore) !important;
 }
@@ -66,27 +88,22 @@ div.tab {
   margin-top: -6px !important;
 }
 
-/*Hibernated tabs*/
-
+/* Hibernated tabs */
 .tab.isdiscarded {
   background-color: var(--colorAccentBgFadedMost) !important;
   color: var(--colorFgFadedMore) !important;
 }
 
-/*tooltip*/
-
+/* Tooltips */
 .thumbnail-image {
   display: none !important;
 }
 
-/*WorkSpace button*/
+/* --------------------------------------------------------------------------
+   Tab Stacks
+   -------------------------------------------------------------------------- */
 
-span.button-icon {
-  font-size: 25px !important;
-}
-
-/* compact tab stack */
-
+/* Compact tab stack */
 div.tab-indicator {
   background-color: var(--colorHighlightBgFaded) !important;
 }
@@ -95,8 +112,7 @@ div.tab-indicator.active {
   background-color: var(--colorHighlightBgDark) !important;
 }
 
-/*tab stack*/
-
+/* Tab stack container */
 div.is-substack {
   --colorBgAlpha: var(--colorHighlightBgDark) !important;
   --colorAccentBg: transparent !important;
@@ -112,17 +128,21 @@ div.is-substack {
   color: var(--colorHighlightFg) !important;
 }
 
-/* tabbar in tab stack*/
+/* Tabbar in tab stack */
 div#tabs-subcontainer {
   background-color: var(--colorBg) !important;
 }
 
-/* new tab in the sub bar */
+/* --------------------------------------------------------------------------
+   Tab Bar Controls (Hidden)
+   -------------------------------------------------------------------------- */
+
+/* New tab in the sub bar */
 div.button-toolbar.newtab {
   display: none !important;
 }
 
-/* lock button */
+/* Lock button */
 div.button-toolbar.tabs-unlocked {
   display: none !important;
 }
@@ -133,7 +153,6 @@ button[title="New Stacked Tab (Ctrl+T)"] {
 }
 
 /* Close tooltip Remove */
-
 /* button.close { */
 /*   position: relative !important; */
 /*   pointer-events: none !important; */

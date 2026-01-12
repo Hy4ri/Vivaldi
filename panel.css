@@ -1,3 +1,11 @@
+/* ==========================================================================
+   Panel
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Panel Buttons
+   -------------------------------------------------------------------------- */
+
 /* Panel Buttons color */
 button[name="Divider"],
 button[title="Add Web Panel"],
@@ -7,14 +15,16 @@ button[name="PanelHistory"] {
   color: var(--colorHighlightBg) !important;
 }
 
-/* Border On Panel Window*/
+/* --------------------------------------------------------------------------
+   Panel Window
+   -------------------------------------------------------------------------- */
 
+/* Border On Panel Window */
 div.panel-group {
   border: 1px solid var(--colorHighlightBg) !important;
 }
 
-/* Panel Window Header*/
-
+/* Panel Window Header */
 header.webpanel-header {
   display: none !important;
 }

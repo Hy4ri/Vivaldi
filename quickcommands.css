@@ -1,4 +1,12 @@
-/* Higher Placement*/
+/* ==========================================================================
+   Quick Commands
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Layout & Dimensions
+   -------------------------------------------------------------------------- */
+
+/* Higher Placement */
 .qc-modal {
   top: 15vh !important;
 }
@@ -20,6 +28,10 @@ div.ReactVirtualized__Grid.ReactVirtualized__List {
   max-width: 100% !important;
 }
 
+/* --------------------------------------------------------------------------
+   Appearance
+   -------------------------------------------------------------------------- */
+
 /* Transparency */
 .qc-entry,
 .quick-commands {
@@ -31,7 +43,7 @@ div.ReactVirtualized__Grid.ReactVirtualized__List {
   background-color: var(--colorHighlightBg) !important;
 }
 
-/* Styling  */
+/* Styling */
 .qc-modal .modal-wrapper {
   color: var(--colorFgIntense) !important;
   background-color: var(--colorBgAlphaBlur) !important;

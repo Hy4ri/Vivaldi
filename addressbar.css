@@ -1,14 +1,14 @@
-/* =====================================
-   Main Bar
-  ===================================== */
+/* ==========================================================================
+   Address Bar / Main Bar
+   ========================================================================== */
 
 div.mainbar {
   border: none !important;
 }
 
-/* =====================================
+/* --------------------------------------------------------------------------
    Address Field
-  ===================================== */
+   -------------------------------------------------------------------------- */
 
 /* Center text */
 .UrlField {
@@ -31,7 +31,9 @@ div.mainbar {
   background-color: var(--colorAccentFgAlphaHeavy);
 }
 
-/* URL */
+/* --------------------------------------------------------------------------
+   URL Display
+   -------------------------------------------------------------------------- */
 
 /* URL Base-domain */
 .UrlFragment-HostFragment-Basedomain {
@@ -39,14 +41,16 @@ div.mainbar {
   font-weight: 900;
 }
 
-/* URL Sub-domain the thing after the dot like .com */
+/* URL Sub-domain (e.g., the part after the dot like .com) */
 .UrlFragment-HostFragment-Subdomain,
 .UrlFragment-HostFragment-TLD {
   color: var(--colorFgIntense) !important;
   font-weight: 600;
 }
 
-/*bookmark*/
+/* --------------------------------------------------------------------------
+   Bookmarks
+   -------------------------------------------------------------------------- */
 
 button.button-on path.bookmark-outline {
   fill: var(--colorHighlightBg) !important;
@@ -57,37 +61,41 @@ button.button-on path.bookmark-outline {
   display: none;
 }
 
-/* ====================================
-   clock
-   ====================================*/
+/* --------------------------------------------------------------------------
+   Clock
+   -------------------------------------------------------------------------- */
+
 button[name="Clock"] {
   color: var(--colorHighlightBg) !important;
 }
 
-/* =================================================
-   Extensions icon ++ the extendable bar background
-   ================================================= */
+/* --------------------------------------------------------------------------
+   Extensions
+   -------------------------------------------------------------------------- */
+
+/* Extensions icon and extendable bar background */
 button[name="Extensions"] {
   color: var(--colorHighlightBg) !important;
 }
 
-/* =====================================
-   home
-  ===================================== */
+/* --------------------------------------------------------------------------
+   Navigation Controls
+   -------------------------------------------------------------------------- */
+
+/* Home Button */
 button[name="Home"] {
   color: var(--colorHighlightBg) !important;
 }
 
-/* =====================================
-   Previous Page
-  ===================================== */
+/* Previous Page / Back Button */
 button[name="Back"] {
   color: var(--colorHighlightBg) !important;
 }
 
-/* =====================================
-   Private Browsing Window
-  ===================================== */
+/* --------------------------------------------------------------------------
+   Private Browsing
+   -------------------------------------------------------------------------- */
+
 div[title="Private Browsing Window"] {
   color: var(--colorHighlightBg) !important;
 }
