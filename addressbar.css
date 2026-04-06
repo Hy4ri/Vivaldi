@@ -65,7 +65,7 @@ button.button-on path.bookmark-outline {
    Clock
    -------------------------------------------------------------------------- */
 
-button[name="Clock"] {
+button[data-name="Clock"] {
   color: var(--colorHighlightBg) !important;
 }
 
@@ -74,7 +74,7 @@ button[name="Clock"] {
    -------------------------------------------------------------------------- */
 
 /* Extensions icon and extendable bar background */
-button[name="Extensions"] {
+button[data-name="Extensions"] {
   color: var(--colorHighlightBg) !important;
 }
 
@@ -83,12 +83,12 @@ button[name="Extensions"] {
    -------------------------------------------------------------------------- */
 
 /* Home Button */
-button[name="Home"] {
+button[data-name="Home"] {
   color: var(--colorHighlightBg) !important;
 }
 
 /* Previous Page / Back Button */
-button[name="Back"] {
+button[data-name="Back"] {
   color: var(--colorHighlightBg) !important;
 }
 
@@ -99,3 +99,4 @@ button[name="Back"] {
 div[title="Private Browsing Window"] {
   color: var(--colorHighlightBg) !important;
 }
+

@@ -78,6 +78,10 @@ div.tab {
   background-color: var(--colorAccentBgFadedMore) !important;
 }
 
+.tab.pinned .tab-audio ~ span.favicon.jstest-favicon-image {
+  display: none !important;
+}
+
 .tab.pinned.active {
   background-color: var(--colorHighlightBgDark) !important;
   color: var(--colorHighlightFg) !important;
