@@ -3,15 +3,6 @@
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   Interaction & Auto-expand
-   -------------------------------------------------------------------------- */
-
-/* auto expand on hover */
-/* #tabs-tabbar-container:hover { */
-/*   width: 200px !important; */
-/* } */
-
-/* --------------------------------------------------------------------------
    Workspaces
    -------------------------------------------------------------------------- */
 
@@ -21,7 +12,7 @@ button[title="Workspaces"] {
   background-color: var(--colorBg) !important;
 }
 
-button[name="WorkspaceButton"] {
+button[data-name="WorkspaceButton"] {
   color: var(--colorHighlightBg) !important;
   background-color: var(--colorBg) !important;
 }
@@ -78,17 +69,13 @@ div.tab {
   background-color: var(--colorAccentBgFadedMore) !important;
 }
 
-.tab.pinned .tab-audio ~ span.favicon.jstest-favicon-image {
-  display: none !important;
-}
-
 .tab.pinned.active {
   background-color: var(--colorHighlightBgDark) !important;
   color: var(--colorHighlightFg) !important;
   margin-top: 1px !important;
 }
 
-.tab.pinned.active .tab-audio {
+.tab-audio {
   margin-top: -6px !important;
 }
 
@@ -122,10 +109,6 @@ div.is-substack {
   --colorAccentBg: transparent !important;
 }
 
-/* div.stack-counter { */
-/*    display: none !important;  */
-/* } */
-
 /* Colored Tab stack */
 #browser .tab-position.colored.accordion-toggle-arrow,
 #browser .tab-position.colored .tab:not(.active) {
@@ -156,8 +139,3 @@ button[title="New Stacked Tab (Ctrl+T)"] {
   display: none !important;
 }
 
-/* Close tooltip Remove */
-/* button.close { */
-/*   position: relative !important; */
-/*   pointer-events: none !important; */
-/* } */

@@ -7,11 +7,11 @@
    -------------------------------------------------------------------------- */
 
 /* Panel Buttons color */
-button[name="Divider"],
+button[data-name="Divider"],
 button[title="Add Web Panel"],
-button[name="COMMAND_ac202c3e-c276-40c3-943f-9e4ccb057f99"],
-button[name="Settings"],
-button[name="PanelHistory"] {
+button[data-name="COMMAND_ac202c3e-c276-40c3-943f-9e4ccb057f99"],
+button[data-name="Settings"],
+button[data-name="PanelHistory"] {
   color: var(--colorHighlightBg) !important;
 }
 
