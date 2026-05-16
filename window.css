@@ -15,8 +15,13 @@ div#header {
    -------------------------------------------------------------------------- */
 
 * {
-  font-family: JetBrainsMono Nerd Font, system-ui, sans-serif !important;
+  font-family: 'RecMonoCasual Nerd Font', sans-serif;
   font-size: 14px !important;
+}
+
+::selection {
+  color: #e2e2e2;
+  background: #990000 !important;
 }
 
 /* ==========================================================================

@@ -47,6 +47,11 @@ span.favicon.jstest-favicon-image {
   margin-top: -2px !important;
 }
 
+.tab-audio {
+  display: none !important;
+}
+
+
 /* --------------------------------------------------------------------------
    Tab Styling
    -------------------------------------------------------------------------- */
@@ -73,10 +78,6 @@ div.tab {
   background-color: var(--colorHighlightBgDark) !important;
   color: var(--colorHighlightFg) !important;
   margin-top: 1px !important;
-}
-
-.tab-audio {
-  margin-top: -6px !important;
 }
 
 /* Hibernated tabs */
